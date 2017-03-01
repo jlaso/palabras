@@ -1,0 +1,22 @@
+<%= form_for(word_job) do |f| %>
+  <% if word_job.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(word_job.errors.count, "error") %> prohibited this word_job from being saved:</h2>
+
+      <ul>
+      <% word_job.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :last_word %>
+    <%= f.text_field :last_word %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

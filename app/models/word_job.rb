@@ -1,0 +1,2 @@
+class WordJob < ApplicationRecord
+end

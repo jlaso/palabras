@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Last word:</strong>
+  <%= @word_job.last_word %>
+</p>
+
+<%= link_to 'Edit', edit_word_job_path(@word_job) %> |
+<%= link_to 'Back', word_jobs_path %>

@@ -1,5 +1,7 @@
 # README
 
+Take a look here http://bwillis.github.io/2014/05/20/clean-secrets-git-repo/
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
